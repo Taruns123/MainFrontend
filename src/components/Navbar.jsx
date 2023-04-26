@@ -14,11 +14,11 @@ export class Navbar extends Component {
   render() {
     return (
        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <Link className="navbar-brand text-primary" to="/">Chainify</Link>
+  <Link className="navbar-brand text-primary text-xl" to="/">Chainify</Link>
   <Link className="navbar-brand text-lg" to="/health">Assets</Link>
   <Link className="navbar-brand text-lg" to="/form">create Asset</Link>
   <Link className="navbar-brand text-lg" to="/change">transfer Asset</Link>
-  <Link className="navbar-brand text-lg" to="/multi">Display Asset</Link>
+  <Link className="navbar-brand text-lg" to="/multi">Multi-Asset</Link>
   <Link className="navbar-brand text-lg" to="/transactions">Transactions</Link>
 
   

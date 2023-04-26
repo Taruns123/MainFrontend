@@ -44,6 +44,7 @@ export class Display extends Component {
       }
       handleSubmitTaluka(event){
         this.setState({TrueVal : '1'});
+        // this.setState({articles: []});
         event.preventDefault();
       }
 
@@ -101,7 +102,7 @@ export class Display extends Component {
     
   </div>
   
-  <button class="btn btn-primary col-md-6" type="submit" >Search by landid</button>
+  <button class="btn btn-primary col-md-6" type="submit" >Search by land id</button>
   <button class="btn btn-primary col-md-3" type="submit">Search by District</button>
   <button class="btn btn-primary col-md-3" type="submit" onClick={this.handleSubmitTaluka}>Search by Taluka</button>
 
